@@ -1,0 +1,59 @@
+/* Usuwa wszystkie marginesy i paddingi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Poprawia line-height */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Poprawia zachowanie body */
+body {
+  margin: 0;
+  font-family: inherit;
+}
+
+/* Usuwa podkreślenia w linkach */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Usuwa list-style z ul/ol */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Obrazy nie wychodzą poza kontener */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Ujednolicenie inputów i buttonów */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* Przycisk ma pointer, jeśli jest interaktywny */
+button {
+  cursor: pointer;
+}
+
+/* Tabela bez dziwnych odstępów */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

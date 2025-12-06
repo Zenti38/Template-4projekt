@@ -1,0 +1,35 @@
+.our-projects {
+  padding-bottom: 70px;
+  height: 207px;
+  background-color: #f6f6f8;
+}
+.our-projects-list-div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.our-projects-line {
+  border-top: 1px solid rgba(161, 161, 161, 0.5);
+  width: 1110px;
+  margin-left: 405px;
+  margin-right: 405px;
+}
+.our-projects-list {
+  gap: 100px;
+  margin-top: 70px;
+  justify-content: center;
+  display: flex;
+}
+.our-projects-list-p {
+  margin-left: 17px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+}
+.our-projects-list-p2 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
+}
