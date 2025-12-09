@@ -4,6 +4,8 @@
   background-color: #f6f6f8;
 }
 .objednalka {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #e0e0e0;
   gap: 121px;
   display: flex;
 }
@@ -11,12 +13,14 @@
   width: 489px;
 }
 .standarts-h3 {
+  padding-bottom: 60px;
   font-family: Montserrat;
   font-weight: 700;
   font-size: 36px;
 }
 
 .standarts-p {
+  padding-bottom: 42px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 16px;

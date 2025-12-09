@@ -1,6 +1,6 @@
 .our-projects {
+  padding-top: 70px;
   padding-bottom: 70px;
-  height: 207px;
   background-color: #f6f6f8;
 }
 .our-projects-list-div {
@@ -8,15 +8,9 @@
   display: flex;
   justify-content: center;
 }
-.our-projects-line {
-  border-top: 1px solid rgba(161, 161, 161, 0.5);
-  width: 1110px;
-  margin-left: 405px;
-  margin-right: 405px;
-}
+
 .our-projects-list {
   gap: 100px;
-  margin-top: 70px;
   justify-content: center;
   display: flex;
 }
@@ -32,4 +26,8 @@
   font-weight: 400;
   font-size: 16px;
   color: #999999;
+}
+.our-projects-list-svg {
+  width: 30px;
+  height: 26px;
 }

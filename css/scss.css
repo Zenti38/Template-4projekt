@@ -66,6 +66,13 @@ table {
   padding-right: 15px;
 }
 
+.video-div-line {
+  padding-top: 85px;
+  margin: 0 auto;
+  width: 1110px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .header {
   top: 0;
   position: absolute;
@@ -185,6 +192,8 @@ table {
 }
 
 .objednalka {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #e0e0e0;
   gap: 121px;
   display: flex;
 }
@@ -194,12 +203,14 @@ table {
 }
 
 .standarts-h3 {
+  padding-bottom: 60px;
   font-family: Montserrat;
   font-weight: 700;
   font-size: 36px;
 }
 
 .standarts-p {
+  padding-bottom: 42px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 16px;
@@ -220,10 +231,12 @@ table {
 
 .all-services {
   width: 100%;
-  background: linear-gradient(to right, #504dc2, #5f12d0);
+  background: #5f12d0;
+  background: linear-gradient(180deg, rgb(95, 18, 208) 50%, rgb(255, 255, 255) 50%);
 }
 
 .all-services-h3 {
+  padding-bottom: 70px;
   color: #ffffff;
   font-family: Montserrat;
   font-weight: 700;
@@ -231,6 +244,7 @@ table {
 }
 
 .all-services-btn {
+  margin-bottom: 93px;
   color: #ffffff;
   font-family: Montserrat;
   font-weight: 500;
@@ -249,12 +263,27 @@ table {
 }
 
 .all-services-list-li-img {
+  padding-bottom: 30px;
   width: 350px;
   height: 300px;
 }
 
+.all-services-div {
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
+
+.all-services-line2 {
+  padding-bottom: 100px;
+  margin: 0 auto;
+  width: 1110px;
+  border-top: 1px solid #e0e0e0;
+}
+
 .all-services-div-list {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .all-services-list {
@@ -295,11 +324,6 @@ table {
   font-size: 16px;
   text-decoration: underline;
   color: #4985ff;
-}
-
-.all-services-line2 {
-  border-top: 1px solid rgba(161, 161, 161, 0.5);
-  width: 1110px;
 }
 
 .all-projects {
@@ -348,37 +372,126 @@ table {
 }
 
 .video {
+  padding-top: 85px;
   background-image: url("/img/background-images/Rectangle.webp");
-  height: 570px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
+  height: auto;
 }
 
 .video-h3 {
-  color: #ffffff;
-  padding-top: 70px;
   font-family: Montserrat;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+  color: #ffffff;
 }
 
 .video-p {
   padding-top: 30px;
-  color: #ffffff;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+  color: #ffffff;
+}
+
+.video-img {
+  padding-top: 70px;
+}
+
+.video-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  width: 300px;
+  height: 100px;
+  border-radius: 200px;
+  border: 1px solid #ffffff;
+}
+
+.video-btn-svg {
+  height: 60px;
+  width: 60px;
+}
+
+.video-btn-span {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.email-h3 {
+  padding-top: 85px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+.email-p {
+  padding-top: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #999999;
+}
+
+.form-control {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.form-control-input {
+  width: 489px;
+  height: 45px;
+  font-family: Montserrat;
+  font-weight: 400;
+  padding-left: 33px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.form-control-btn {
+  width: 190px;
+  height: 45px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4985ff;
+}
+
+.email-p2 {
+  padding-top: 35px;
+  padding-bottom: 85px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #999999;
 }
 
 .footer {
-  margin-top: 500px;
+  padding-top: 70px;
+  padding-bottom: 30px;
   width: 100%;
-  height: 413px;
   background-color: #f6f6f8;
 }
 
 .footer-list1-h5 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
@@ -388,9 +501,15 @@ table {
   font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .footer-list3-h5 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
   font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
@@ -400,57 +519,100 @@ table {
   font-family: Montserrat;
   font-weight: 600;
   font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .footer-list1-a {
+  color: #999999;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
-}
-
-.footer-list1-a {
   font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
 }
 
 .footer-list2-a {
+  color: #999999;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
 }
 
 .footer-list3-a {
+  color: #999999;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
 }
 
 .footer-list4-a {
+  color: #999999;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
   font-family: Montserrat;
   font-weight: 400;
   font-size: 14px;
 }
 
+.footer-text-objednalka {
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-list1-svg {
+  width: 15px;
+  height: 15px;
+}
+
 .footer-list1-li {
-  gap: 30px;
+  padding-top: 30px;
+  display: flex;
+  text-align: center;
+  gap: 15px;
 }
 
-.footer-list2-li {
-  gap: 30px;
+.footer-list123-svg {
+  width: 10px;
+  height: 10px;
 }
 
-.footer-list3-li {
-  gap: 30px;
-}
-
+.footer-list2-li,
+.footer-list3-li,
 .footer-list4-li {
-  gap: 30px;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.footer-div-line {
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 1110px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer-p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #999999;
 }
 
 .our-projects {
+  padding-top: 70px;
   padding-bottom: 70px;
-  height: 207px;
   background-color: #f6f6f8;
 }
 
@@ -460,16 +622,8 @@ table {
   justify-content: center;
 }
 
-.our-projects-line {
-  border-top: 1px solid rgba(161, 161, 161, 0.5);
-  width: 1110px;
-  margin-left: 405px;
-  margin-right: 405px;
-}
-
 .our-projects-list {
   gap: 100px;
-  margin-top: 70px;
   justify-content: center;
   display: flex;
 }
@@ -487,4 +641,9 @@ table {
   font-weight: 400;
   font-size: 16px;
   color: #999999;
+}
+
+.our-projects-list-svg {
+  width: 30px;
+  height: 26px;
 }

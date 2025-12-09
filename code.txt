@@ -1,0 +1,6 @@
+<picture>
+  <source
+    srcset="./img/1x/video-1px.webp 1x, ./img/2x/video-2px.webp 2, ./img/3x/video-3px.webp 3x,"
+  />
+  <img class="video-img" src="./img/1x/video-1px.webp" alt="" />
+</picture>
