@@ -1,9 +1,9 @@
 .header {
+  position: static;
   top: 0;
   position: absolute;
   width: 100%;
   border-bottom: 1px solid rgba(161, 161, 161, 0.5);
-  padding-bottom: 40px;
 }
 .header-list {
   display: flex;
@@ -14,4 +14,23 @@
   font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
+}
+.header-list-li {
+  position: relative;
+  padding-bottom: 39px;
+}
+
+.header-list-li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.header-list-li:hover::after {
+  width: 100%;
 }

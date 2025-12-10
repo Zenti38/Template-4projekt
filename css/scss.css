@@ -67,18 +67,18 @@ table {
 }
 
 .video-div-line {
-  padding-top: 85px;
+  padding-top: 165px;
   margin: 0 auto;
   width: 1110px;
   border-bottom: 1px solid #e0e0e0;
 }
 
 .header {
+  position: static;
   top: 0;
   position: absolute;
   width: 100%;
   border-bottom: 1px solid rgba(161, 161, 161, 0.5);
-  padding-bottom: 40px;
 }
 
 .header-list {
@@ -90,6 +90,26 @@ table {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
+}
+
+.header-list-li {
+  position: relative;
+  padding-bottom: 39px;
+}
+
+.header-list-li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.header-list-li:hover::after {
+  width: 100%;
 }
 
 .hero {
@@ -378,7 +398,7 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: auto;
+  height: 570px;
 }
 
 .video-h3 {
@@ -390,6 +410,7 @@ table {
 }
 
 .video-p {
+  padding-bottom: 70px;
   padding-top: 30px;
   font-family: Montserrat;
   font-weight: 400;
@@ -398,12 +419,18 @@ table {
   color: #ffffff;
 }
 
+.video-div {
+  width: 1080px;
+  height: 450px;
+}
+
 .video-img {
-  padding-top: 70px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .video-btn {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
