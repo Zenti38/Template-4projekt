@@ -23,16 +23,26 @@
   text-align: center;
   color: #ffffff;
 }
+.div-video {
+  width: 970px;
+  border-radius: 10px;
+  overflow: hidden;
+}
 .video-div {
-  width: 1080px;
-  height: 450px;
+  width: 970px;
+  position: relative;
+}
+.video-btn-div {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 .video-img {
-  position: relative;
-  margin: 0 auto;
+  width: 100%;
+  height: 430px;
 }
 .video-btn {
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;

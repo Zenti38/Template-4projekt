@@ -419,18 +419,30 @@ table {
   color: #ffffff;
 }
 
+.div-video {
+  width: 970px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .video-div {
-  width: 1080px;
-  height: 450px;
+  width: 970px;
+  position: relative;
+}
+
+.video-btn-div {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .video-img {
-  position: relative;
-  margin: 0 auto;
+  width: 100%;
+  height: 430px;
 }
 
 .video-btn {
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -471,11 +483,16 @@ table {
 }
 
 .form-control {
+  justify-content: center;
+  display: flex;
   padding-top: 30px;
   text-align: center;
 }
 
 .form-control-input {
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.2509803922);
+  margin-right: 0px;
+  right: 0;
   width: 489px;
   height: 45px;
   font-family: Montserrat;
@@ -486,6 +503,8 @@ table {
 }
 
 .form-control-btn {
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.2509803922);
+  left: 0;
   width: 190px;
   height: 45px;
   border-top-right-radius: 30px;
